@@ -4,7 +4,10 @@ import javax.swing.JOptionPane;
 
 public class App {
 	public static void main(String[] args) {
-		FilaSequencialEncadeada normais = new FilaSequencialEncadeada();
+		
+                System.out.println("Ola Mundo");
+            
+                FilaSequencialEncadeada normais = new FilaSequencialEncadeada();
 		FilaSequencialEncadeada prioritarios = new FilaSequencialEncadeada();
 		FilaSequencialEncadeada retiradas = new FilaSequencialEncadeada();
 
