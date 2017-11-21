@@ -4,6 +4,8 @@ import javax.swing.JOptionPane;
 
 public class App {
 	public static void main(String[] args) {
+		System.out.println("Olá mundo!");
+		
 		FilaSequencialEncadeada normais = new FilaSequencialEncadeada();
 		FilaSequencialEncadeada prioritarios = new FilaSequencialEncadeada();
 		FilaSequencialEncadeada retiradas = new FilaSequencialEncadeada();
@@ -60,6 +62,7 @@ public class App {
 		// System.out.print(minhaFila.dequeue());
 		// System.out.println(" Total: "+minhaFila.size());
 		// }
+		
 	}
 
 	public static Pessoa cadastraCliente() {
