@@ -2,7 +2,10 @@ package atv;
 
 public class App {
 	public static void main(String[] args) {
-		FilaSequencialEncadeada minhaFila = new FilaSequencialEncadeada();
+		
+                System.out.println("Olá Mundo!");
+            
+                FilaSequencialEncadeada minhaFila = new FilaSequencialEncadeada();
 
 		minhaFila.enqueue("Dale");
 		minhaFila.enqueue("Time");
