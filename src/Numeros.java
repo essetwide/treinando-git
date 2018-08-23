@@ -2,7 +2,7 @@
 public class Numeros {
 
 	public static int[] getNumeros() {
-		
+
 		int [] valores = {  15,
 							1,
 							3,
