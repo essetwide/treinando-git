@@ -2,7 +2,7 @@
 public class Numeros {
 
 	public static int[] getNumeros() {
-	
+		
 		int [] valores = {  15,
 							1,
 							3,
@@ -63,6 +63,7 @@ public class Numeros {
 							4,
 							2,
 							9};
+		int y = 12;
 
 		return valores;
 	}
